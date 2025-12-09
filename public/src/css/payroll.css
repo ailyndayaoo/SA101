@@ -1,0 +1,188 @@
+.payroll-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  height: 100vh;
+  margin-left: 250px; /* Adjust for the sidebar width */
+  text-align: left;
+}
+
+.payroll-container h1 {
+  position: fixed;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: .25%;
+  margin-left: 3.25%;
+}
+
+.profile-payroll-container {
+  position: fixed; /* Position the profile container absolutely */
+  right: 30px; /* Space from the right edge */
+  display: flex;
+  align-items: center; /* Align items vertically */
+  margin-top: -1%;
+}
+
+.profile-payroll-icon {
+  font-size: 1.5rem; /* Size of the profile icon */
+  color: #333; /* Color of the profile icon */
+  margin-right: -5px; /* Space between the icon and the text */
+}
+
+.profile-payroll-label {
+  font-size: 1rem; /* Font size for the profile label */
+  color: #333; /* Color of the profile label */
+  margin-top: 20%;
+  margin-left: 15%;
+  display: flex;
+  align-items: center;
+  cursor: pointer; /* Change cursor to hand on hover */
+}
+
+.arrow-payroll-icon {
+  font-size: 1rem; /* Font size for the arrow icon */
+  margin-left: 10px; /* Space between the text and the arrow */
+  color: #333; /* Color of the arrow icon */
+}
+
+.dropdown-payroll-item {
+  position: fixed;
+  font-size: 0.8rem; /* Smaller font size for the Logout text */
+  padding: 8px 12px; /* Adjust padding for better spacing */
+  cursor: pointer; /* Change cursor to hand on hover */
+  background-color: #f8f9fa; /* Light background color for the item */
+  border-radius: 4px; /* Rounded corners for the background */
+  text-align: center; /* Center-align the text */
+  width: 5%;
+  left: 93%;
+}
+
+.icon-payroll {
+  position: fixed;
+  font-size: 35px; /* Adjust size as needed */
+  padding: 5px; /* Adjust padding as needed */
+  margin-top: 4px;
+  margin-left: -10px;
+}
+
+.search-payroll-container {
+  margin-bottom: 20px; /* Space between the search bar and other content */
+  display: flex;
+  justify-content: center; /* Center the search bar horizontally */
+}
+
+.search-bar-payroll-container {
+position: fixed;
+top: 22%;
+left: 75%;
+width: 40%;
+z-index: 500; /* Ensure it’s below the button */
+}
+
+.search-bar-payroll {
+padding: 10px 40px 10px 10px;
+border: 1px solid #ddd;
+border-radius: 4px;
+font-size: 1rem;
+position: fixed; /* Ensure it doesn’t overlap other elements */
+}
+
+
+.search-payroll-icon {
+position: absolute;
+right: 55%; /* Adjust if needed */
+top: 35%; /* Adjust if needed */
+transform: translateY(-50%);
+color: #000000;
+}
+
+.search-payroll-label {
+  position: fixed;
+  font-size: 1.2rem; /* Font size for the label */
+  color: #333; /* Color of the label */
+  margin-top: 7%;
+  margin-right: -127%;
+}
+
+.table-payroll-container {
+  position: fixed;
+  margin-top: 15%; /* Space above the table */
+  width: 80%; /* Full width for the table container */
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+}
+
+.payroll-table {
+  width: 100%; /* Full width for the table */
+  border-collapse: collapse; /* Collapse borders between cells */
+}
+
+.payroll-table th,
+.payroll-table td {
+  border: 1px solid #ddd; /* Light border for table cells */
+  padding: 10px; /* Padding for better spacing */
+  text-align: center; /* Center-align text */
+}
+
+.payroll-table th {
+  background-color: #f4f4f4; /* Light gray background for headers */
+  font-weight: bold; /* Bold text for headers */
+}
+
+.payroll-table td {
+  font-size: 0.9rem; /* Slightly smaller font size for data cells */
+}
+
+.payroll-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Zebra striping for table rows */
+}
+
+/* Style for action buttons */
+.edit-payroll-button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #ffc905;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-payroll-button:hover {
+  background-color: #eed18d;
+}
+
+
+.date-main-payroll-container {
+  position: fixed;
+  top: 20%; /* Adjust as needed */
+  right: 65%; /* Adjust as needed */
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.date-main-payroll-input {
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 50%; /* Increase the width of the date picker input */
+}
+
+.table-payroll-container {
+  max-height: 400px; /* Set the height for the table container */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border: 1px solid #ccc; /* Optional: add border for better visibility */
+}
+
+.payroll-table {
+  width: 100%; /* Ensure the table takes the full width */
+  border-collapse: collapse; /* Optional: remove gaps between table cells */
+}
+
+.payroll-table th,
+.payroll-table td {
+  padding: 8px; /* Add some padding */
+  text-align: left; /* Align text to the left */
+  border-bottom: 1px solid #ddd; /* Add a bottom border for rows */
+}

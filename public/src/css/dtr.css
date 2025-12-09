@@ -1,0 +1,196 @@
+.dtr-container {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  align-items: flex-start; /* Align items to the left */
+  justify-content: flex-start; /* Align items to the top */
+  padding: 20px; /* Add padding for spacing */
+  height: 100vh; /* Full viewport height */
+  margin-left: 250px; /* Adjust for the sidebar width */
+  text-align: left; /* Align text to the left */
+}
+
+.dtr-container h1 {
+  position: fixed; /* Position relative to allow positioning of the icon inside */
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: -.5%;
+  margin-left: 4%;
+}
+
+.icon-dtr {
+  position: fixed;
+  font-size: 30px; /* Adjust size as needed */
+  padding: 5px; /* Adjust padding as needed */
+  margin-top: -5px;
+
+}
+
+.search-label-dtr {
+  position: fixed;
+  font-size: 1.2rem; /* Font size for the label */
+  color: #333; /* Color of the label */
+  margin-top: 5.5%;
+  margin-right: -127%;
+}
+
+.date-time-container {
+  margin-top: 2%; /* Add some spacing between the welcome text and the date */
+  
+}
+
+.date-time-container p {
+  font-size: 1rem; /* Smaller font size for the date */
+  color: #000000; /* Subtle color for the date */
+  position: fixed; /* Position relative to allow positioning of the icon inside */
+}
+
+.profile-dtr-container {
+  position: fixed; /* Position the profile container absolutely */
+  right: 30px; /* Space from the right edge */
+  display: flex;
+  align-items: center; /* Align items vertically */
+  margin-top: -48%;
+}
+
+.profile-dtr-icon {
+  font-size: 1.5rem; /* Size of the profile icon */
+  color: #333; /* Color of the profile icon */
+  margin-right: -5px; /* Space between the icon and the text */
+}
+
+.profile-dtr-label {
+  font-size: 1rem; /* Font size for the profile label */
+  color: #333; /* Color of the profile label */
+  margin-top: 20%;
+  margin-left: 15%;
+  display: flex;
+  align-items: center;
+  cursor: pointer; /* Change cursor to hand on hover */
+}
+
+.arrow-dtr-icon {
+  font-size: 1rem; /* Font size for the arrow icon */
+  margin-left: 10px; /* Space between the text and the arrow */
+  color: #333; /* Color of the arrow icon */
+}
+
+.dropdown-dtr-item {
+  position: fixed;
+  font-size: 0.8rem; /* Smaller font size for the Logout text */
+  padding: 8px 12px; /* Adjust padding for better spacing */
+  cursor: pointer; /* Change cursor to hand on hover */
+  background-color: #f8f9fa; /* Light background color for the item */
+  border-radius: 4px; /* Rounded corners for the background */
+  text-align: center; /* Center-align the text */
+  width: 5%;
+  left: 93%;
+}
+
+.date-picker-container {
+  position: fixed;
+  top: 25%; /* Adjust as needed */
+  right: 60%; /* Adjust as needed */
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.date-picker-input {
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 50%; /* Increase the width of the date picker input */
+}
+
+.table-dtr-container {
+  max-height: 470px; /* Set the maximum height for the table body container */
+  overflow-y: auto; /* Enable vertical scrolling for the table body */
+  width: 82%;
+  position: fixed;
+  margin-top: 15%;
+}
+
+.staff-dtr-table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+.staff-dtr-table th,
+.staff-dtr-table td {
+  text-align: center;
+  padding: 10px;
+}
+
+.staff-dtr-table th {
+  background-color: #f4f4f4; /* Light gray background for table headers */
+  position: sticky; /* Make the header sticky */
+  top: 0; /* Stick the header to the top */
+  z-index: 1; /* Ensure the header stays above the table content */
+  border-bottom: 2px solid #ddd; /* Optional: Add a border between the header and the body */
+}
+
+.staff-dtr-table td {
+  border: 1px solid #ddd;
+}
+
+.staff-dtr-table th, .staff-dtr-table td {
+  width: 16.66%; /* Divide columns equally */
+}
+
+
+.save-dtr-button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #ffc905;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-dtr-button:hover {
+  background-color: #eed18d;
+}
+
+.time-container {
+  display: flex;
+  justify-content: center; /* Center the inputs */
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.time-input-wrapper {
+  display: flex;
+  align-items: center;
+
+}
+
+.time-input {
+  width: 30px !important;  /* Ensure width is smaller */
+  padding: 2px !important;  /* Reduce padding */
+  margin: 0 3px !important; /* Reduce space between HH and MM */
+  text-align: center !important; /* Center align the text */
+  border-radius: 5px !important;
+  border: 1px solid #ccc !important;
+  font-size: 1rem !important; /* Smaller font size */
+}
+
+
+
+.time-input-wrapper span {
+  font-size: 1.5rem; /* Larger colon for better readability */
+  padding: 0 5px;
+
+}
+
+.time-period-select {
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 1rem;
+  
+}
+

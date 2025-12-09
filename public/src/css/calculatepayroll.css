@@ -1,0 +1,261 @@
+.calculate-payroll-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+    height: 100vh;
+    margin-left: 250px; /* Adjust for the sidebar width */
+    text-align: left;
+    }
+    
+    .calculate-payroll-container h3 {
+      position: fixed;
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-top: .25%;
+      margin-left: 3.25%;
+      
+    }
+
+    .back-payroll-button {
+      position: fixed;
+      margin-top: 9%;
+      font-size: 1rem;
+    }
+  
+    .date-payroll-container {
+      position: fixed;
+      top: 20%; /* Adjust as needed */
+      right: 1%; /* Adjust as needed */
+      z-index: 1000; /* Ensure it appears above other elements */
+    }
+    
+    .date-payroll-input {
+      font-weight: bold;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      width: 50%; /* Increase the width of the date picker input */
+    }
+  
+    .form-payroll-background {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 70%;
+      height: 60%;
+      margin: 0 auto;
+      position: fixed;
+      top: 30%;
+      left: 58%;
+      transform: translateX(-50%);
+      overflow: hidden; /* Hide any overflow by default */
+    }
+    
+    .form-payroll-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+  
+    
+    .input-payroll-group {
+      margin: 0; /* Remove margin to ensure consistent scrolling */
+      display: flex;
+      flex-direction: column;
+      width: 55%;
+      margin-left: 50%;
+      margin-top: 3%;
+    }
+    
+    .input-payroll-item {
+      margin: 0; /* Remove margin to ensure consistent scrolling */
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .input-payroll-label {
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #333;
+      font-size: 16px;
+    }
+    
+    .input-payroll-field {
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      margin-bottom: 12px;
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+    
+    input[type="txt"], input[type="email"], input[type="tel"], select.input-payroll-field {
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      width: 100%;
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .input-total-field {
+      margin-top: 10px; /* Adds space below the 'Total' button */
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-align: center; /* Center the text inside the input */
+      background-color: #f9f9f9;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .input-total-item {
+      margin: 0; /* Remove margin to ensure consistent scrolling */
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      margin-left: 51%;
+    }
+    
+    
+    select.input-payroll-field {
+      background-color: #ffffff;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      width: 100%;
+      margin-bottom: 12px;
+    }
+  
+    .background-payroll-box {
+      position: fixed;
+      background-color: #f8f8f8;
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      height: 70%;
+      margin-left: -48%;
+      top: 10%;
+      align-items: center;
+    }
+    
+    
+  
+    .image-payroll-label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: #e0e0e0;
+      border: 2px dashed #ccc;
+      position: fixed;
+      cursor: pointer;
+    }
+    
+    .image-payroll-text {
+      position: absolute;
+      font-size: 0.8rem;
+      color: #666;
+    }
+    
+    .image-label:hover .image-payroll-text {
+      color: #000;
+    }
+    
+    .image-payroll-info {
+      color: #666;
+      margin-top: 70%;
+      margin-left: 15%;
+    }
+    
+  
+    
+    .image-payroll-info .p3 {
+      font-size: 12px;
+      margin-top: -5%;
+      margin-left: -15%;
+    }
+    
+    .image-payroll-info .p2 {
+      font-size: 15px;
+      font-weight: bold;
+      margin-top: -5%;
+      margin-left: -30%;
+    }
+    
+    .image-payroll-info .p4 {
+      font-size: 15px;
+      font-weight: bold;
+      margin-top: -70%;
+    }
+  
+    .image {
+      display: none;
+    }
+    
+    .total-payroll-button {
+      background: linear-gradient(to right, lightyellow, gold);
+      color: #000000;
+      border: none;
+      padding: 10px 15px;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 20%;
+      margin-top: 4%;
+      margin-left: 55%;
+    }
+
+    .icon-calculate-payroll {
+      position: fixed;
+      font-size: 35px; /* Adjust size as needed */
+      padding: 5px; /* Adjust padding as needed */
+      margin-top: 4px;
+      margin-left: -10px;
+    }
+    
+    .total-payroll-button:hover {
+      background: linear-gradient(to right, gold, lightyellow);
+    }
+    
+    .save-payroll-button {
+      background: linear-gradient(90deg, #ffe66d, #ffba08);
+      color: #000000;
+      border: none;
+      padding: 10px 15px;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 30%;
+      margin-bottom: 4%;
+      margin-top: 5%;
+
+      margin-left: 50%;
+    }
+    
+    .save-payroll-button:hover {
+      background: linear-gradient(90deg, #ffdd57, #ff9f1c);
+    }
+
+    .scrollable-payroll-section {
+      max-height: 400px; /* Adjust the height as needed */
+      overflow-y: auto; /* Enable vertical scrolling */
+      overflow-x: hidden; /* Disable horizontal scrolling */
+      width: 100%;
+    }
+    
+  
+    
+  
+    

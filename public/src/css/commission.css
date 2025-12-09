@@ -1,0 +1,330 @@
+.commission-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  height: 100vh;
+  margin-left: 250px; /* Adjust for the sidebar width */
+  text-align: left;
+}
+
+.commission-container h1 {
+  position: fixed;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: .25%;
+  margin-left: 3.25%;
+}
+
+.profile-commission-container {
+  position: fixed; /* Position the profile container absolutely */
+  right: 30px; /* Space from the right edge */
+  display: flex;
+  align-items: center; /* Align items vertically */
+  margin-top: -1%;
+}
+
+.profile-commission-icon {
+  font-size: 1.5rem; /* Size of the profile icon */
+  color: #333; /* Color of the profile icon */
+  margin-right: -5px; /* Space between the icon and the text */
+}
+
+.profile-commission-label {
+  font-size: 1rem; /* Font size for the profile label */
+  color: #333; /* Color of the profile label */
+  margin-top: 20%;
+  margin-left: 15%;
+  display: flex;
+  align-items: center;
+  cursor: pointer; /* Change cursor to hand on hover */
+}
+
+.arrow-commission-icon {
+  font-size: 1rem; /* Font size for the arrow icon */
+  margin-left: 10px; /* Space between the text and the arrow */
+  color: #333; /* Color of the arrow icon */
+}
+
+.dropdown-commission-item {
+  position: fixed;
+  font-size: 0.8rem; /* Smaller font size for the Logout text */
+  padding: 8px 12px; /* Adjust padding for better spacing */
+  cursor: pointer; /* Change cursor to hand on hover */
+  background-color: #f8f9fa; /* Light background color for the item */
+  border-radius: 4px; /* Rounded corners for the background */
+  text-align: center; /* Center-align the text */
+  width: 5%;
+  left: 93%;
+}
+
+.icon-commission {
+  position: fixed;
+  font-size: 35px; /* Adjust size as needed */
+  padding: 5px; /* Adjust padding as needed */
+  color: #333;
+
+}
+
+.search-commission-container {
+  margin-bottom: 20px; /* Space between the search bar and other content */
+  display: flex;
+  justify-content: center; /* Center the search bar horizontally */
+}
+
+.search-bar-commission-container {
+position: fixed;
+top: 22%;
+left: 75%;
+width: 40%;
+z-index: 500; /* Ensure it’s below the button */
+}
+
+.search-bar-commission {
+padding: 10px 40px 10px 10px;
+border: 1px solid #ddd;
+border-radius: 4px;
+font-size: 1rem;
+position: fixed; /* Ensure it doesn’t overlap other elements */
+}
+
+
+.search-commission-icon {
+position: absolute;
+right: 55%; /* Adjust if needed */
+top: 35%; /* Adjust if needed */
+transform: translateY(-50%);
+color: #000000;
+}
+
+.search-label {
+  position: fixed;
+  font-size: 1.2rem; /* Font size for the label */
+  color: #333; /* Color of the label */
+  margin-top: 7%;
+  margin-right: -127%;
+}
+
+.table-container {
+  position: fixed;
+  margin-top: 15%; /* Space above the table */
+  width: 80%; /* Full width for the table container */
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+}
+
+.commission-table {
+  width: 100%; /* Full width for the table */
+  border-collapse: collapse; /* Collapse borders between cells */
+}
+
+.commission-table th,
+.commission-table td {
+  border: 1px solid #ddd; /* Light border for table cells */
+  padding: 10px; /* Padding for better spacing */
+  text-align: center; /* Center-align text */
+}
+
+.commission-table th {
+  background-color: #f4f4f4; /* Light gray background for headers */
+  font-weight: bold; /* Bold text for headers */
+}
+
+.commission-table td {
+  font-size: 0.9rem; /* Slightly smaller font size for data cells */
+}
+
+.commission-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Zebra striping for table rows */
+}
+
+/* Style for action buttons */
+.save-commission-button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #ffc905;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-commission-button:hover {
+  background-color: #eed18d;
+}
+
+
+.date-main-commission-container {
+  position: fixed;
+  top: 20%; /* Adjust as needed */
+  right: 65%; /* Adjust as needed */
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.date-main-commission-input {
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 50%; /* Increase the width of the date picker input */
+}
+
+.table-commission-container {
+  position: relative; /* Use relative for a scrollable container */
+  margin-top: 15%;
+  max-height: 45vh; /* Ensure height constraint for scrollability */
+  overflow-y: auto; /* Enable vertical scrolling */
+  width: 100%;
+  padding: 10px; /* Optional: Add some padding if needed */
+  margin-left: -1%; 
+  height: 100%;
+  }
+  .employee-select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .add-commission-container label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .add-commission-container select {
+    margin-bottom: 15px;
+  }
+  .sample{
+    padding: 43px;
+    margin-top: 25px;
+  }
+  
+  
+  
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-commission-container {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-commission-label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .add-commission-container {
+    margin-top: 20px;
+  }
+  
+  .add-commission-container label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .employee-select,
+  .date-commission-input,
+  .sales-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .add-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+  
+  .add-button:hover {
+    background-color: #218838;
+  }
+  
+  .table-commission-container {
+    margin-top: 30px;
+    overflow-x: auto;
+  }
+  
+  .commission-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .commission-table th,
+  .commission-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .commission-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .commission-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  .add-commission-container {
+    display: flex;
+    flex-direction: row; /* Aligns items in a single row */
+    align-items: center; /* Align vertically in the middle */
+    justify-content: space-between; /* Space between items */
+    gap: 20px; /* Space between each input */
+    margin-top: 20px;
+    width: 100%; /* Ensure full width */
+  }
+  
+  .add-commission-container label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .employee-select,
+  .date-commission-input,
+  .sales-input {
+    width: 100%;
+    max-width: 250px; /* Set a fixed width for inputs */
+    padding: 10px;
+    margin-bottom: 0; /* Remove bottom margin to align horizontally */
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .add-button {
+    padding: 5px 8px; /* Smaller horizontal padding */
+    background-color: #ffc905;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem; /* Slightly smaller text */
+    width: 100px; /* Set a fixed width for the button */
+    text-align: center; /* Ensure text is centered */
+  }
+  
+  .add-button:hover {
+    background-color: #eed18d;
+  }
+  

@@ -1,0 +1,156 @@
+.dtr-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  height: 100vh;
+  margin-left: 250px;
+  text-align: left;
+}
+
+.dtr-container h1 {
+  position: fixed;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: -.5%;
+  margin-left: 4%;
+}
+
+.icon-dtr {
+  position: fixed;
+  font-size: 30px;
+  padding: 5px;
+  margin-top: -5px;
+
+}
+
+.search-label-dtr {
+  position: fixed;
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 5.5%;
+  margin-right: -127%;
+}
+
+.date-time-container {
+  margin-top: 2%;
+
+}
+
+.date-time-container p {
+  font-size: 1rem;
+  color: #000000;
+  position: fixed;
+}
+
+
+
+.date-picker-container {
+  position: fixed;
+  top: 13%;
+  right: 30%;
+  z-index: 1000;
+}
+
+.date-picker-input {
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #b23535;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 50%;
+}
+
+.table-dtr-container {
+  max-height: 500px;
+  overflow-y: auto;
+  width: 82%;
+  position: fixed;
+  margin-top: 10%;
+}
+
+.staff-dtr-table {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+.staff-dtr-table th,
+.staff-dtr-table td {
+  text-align: center;
+  padding: 10px;
+}
+
+.staff-dtr-table th {
+  background-color: #f4f4f4;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 2px solid #ddd;
+}
+
+.staff-dtr-table td {
+  border: 1px solid #ddd;
+}
+
+.staff-dtr-table th,
+.staff-dtr-table td {
+  width: 16.66%;
+}
+
+
+.save-dtr-button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #ffc905;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-dtr-button:hover {
+  background-color: #eed18d;
+}
+
+.time-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.time-input-wrapper {
+  display: flex;
+  align-items: center;
+
+}
+
+.time-input {
+  width: 30px !important;
+  padding: 2px !important;
+  margin: 0 3px !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  border: 1px solid #ccc !important;
+  font-size: 1rem !important;
+}
+
+
+
+.time-input-wrapper span {
+  font-size: 1.5rem;
+  padding: 0 5px;
+
+}
+
+.time-period-select {
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 1rem;
+
+}

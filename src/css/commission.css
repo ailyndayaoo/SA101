@@ -1,0 +1,278 @@
+.commission-page {
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.commission-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  height: 100vh;
+  margin-left: 250px;
+  text-align: left;
+}
+
+.commission-container h1 {
+  position: fixed;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: -.5%;
+  margin-left: 3.25%;
+}
+
+.profile-commission-container {
+  position: fixed;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  margin-top: -1%;
+}
+
+.profile-commission-icon {
+  font-size: 1.5rem;
+  color: #333;
+  margin-right: -5px;
+}
+
+.profile-commission-label {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 20%;
+  margin-left: 15%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrow-commission-icon {
+  font-size: 1rem;
+  margin-left: 10px;
+  color: #333;
+}
+
+.dropdown-commission-item {
+  position: fixed;
+  font-size: 0.8rem;
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  text-align: center;
+  width: 5%;
+  left: 93%;
+}
+
+.icon-commission {
+  position: fixed;
+  font-size: 35px;
+  padding: 5px;
+  color: #333;
+
+}
+
+.search-bar-commission-container {
+  position: fixed;
+  margin-top: 10%;
+  margin-left: 40%;
+}
+
+.table-container {
+  position: fixed;
+  margin-top: 50%;
+  width: 80%;
+  overflow-x: auto;
+}
+
+.commission-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.commission-table th,
+.commission-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.commission-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.commission-table td {
+  font-size: 0.9rem;
+}
+
+.commission-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Style for action buttons */
+.save-commission-button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #ffc905;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-commission-button:hover {
+  background-color: #eed18d;
+}
+
+
+.date-main-commission-container {
+  position: fixed;
+  top: 20%;
+  right: 65%;
+  z-index: 1000;
+}
+
+.date-main-commission-input {
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 50%;
+}
+
+.table-commission-container {
+  position: fixed;
+  max-height: 45vh;
+  overflow-y: auto;
+  width: 80%;
+  padding: 10px;
+  margin-left: -1%;
+  height: 38%;
+  margin-top: 25%;
+}
+
+
+
+.employee-select,
+.date-select,
+.sales-input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.employee-select:focus,
+.date-select:focus,
+.sales-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+
+
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-commission-container {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-commission-label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #333;
+  font-size: 1rem;
+}
+
+
+
+
+
+.employee-select,
+.date-commission-input,
+.sales-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+
+
+
+
+
+.add-commission-container {
+  position: fixed;
+  margin-top: 5%;
+
+}
+
+.add-commission-container label {
+  margin-top: 3%;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.employee-select,
+.date-commission-input,
+.sales-input {
+  width: 100%;
+  max-width: 250px;
+  padding: 10px;
+  margin-bottom: 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.add-commission-button {
+  margin-top: 5%;
+  padding: 5px 8px;
+  background-color: #ffc905;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  width: 150px;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.add-commission-button:hover {
+  background-color: #eed18d;
+}
+
+.filter-container {
+  position: fixed;
+  margin-top: 6%;
+  margin-left: 40%;
+}
+
+.filter-container label {
+  position: fixed;
+}
+
+.filter-input-commission,
+.filter-date-picker-commission {
+  position: relative;
+  left: 80%;
+  top: 5%;
+}

@@ -1,0 +1,168 @@
+.calculate-payroll-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  height: 100vh;
+  margin-left: 250px;
+  text-align: left;
+}
+
+.calculate-payroll-container h3 {
+  position: fixed;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 0.25%;
+  margin-left: 3.25%;
+}
+
+.icon-calculate-payroll {
+  position: fixed;
+  font-size: 35px;
+  padding: 5px;
+  margin-top: 4px;
+  margin-left: -10px;
+}
+
+.back-payroll-button {
+  position: fixed;
+  margin-top: 6%;
+  font-size: 1rem;
+}
+
+.scrollable-form-container {
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+.form-payroll-background {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  height: 65%;
+  max-height: 65vh;
+  margin: 0 auto;
+  position: fixed;
+  top: 25%;
+  left: 58%;
+  transform: translateX(-50%);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.payroll-columns {
+  display: flex;
+  width: 100%;
+}
+
+.payroll-column {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.name-id-display {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.name-id-display p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.commissions-list {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.commissions-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.commissions-list th,
+.commissions-list td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+}
+
+.commissions-list th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.commissions-list td {
+  text-align: center;
+}
+
+.week-picker {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.week-picker label {
+  margin-top: 2%;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.total-commission {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.save-payroll-button {
+  background: linear-gradient(90deg, #ffe66d, #ffba08);
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+  margin-left: 45%;
+}
+
+.save-payroll-button:hover {
+  background: linear-gradient(90deg, #ffdd57, #ff9f1c);
+}
+
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[readonly] {
+  background-color: #f9f9f9;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus {
+  border-color: #4CAF50;
+  /* Green border on focus */
+}
+
+.total-pay-input {
+  font-weight: bold;
+  color: #333;
+}
+
+.paydate-container p1 {
+  position: fixed;
+  font-size: 1.25rem;
+  margin-top: -2%;
+}

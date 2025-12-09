@@ -1,0 +1,92 @@
+.choose-branch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.branch-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 30%;
+}
+
+.branch-info h2 {
+  margin-bottom: 20px;
+}
+
+.branch-info button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.branch-image {
+  flex: 3;
+  max-width: 44%;
+  display: flex;
+}
+
+.branch-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-left: -5%;
+}
+
+.branch-buttons {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.branch-buttons h1 {
+  margin-bottom: 20px;
+  color: black;
+  margin-left: 30%;
+  font-size: 50px;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-gap: 20px; /* Space between buttons */
+  width: 100%;
+}
+
+.branch-buttons button {
+  padding: 10px 20px;
+  font-size: 35px;
+  cursor: pointer;
+  background: linear-gradient(to right, lightyellow, gold);
+  border: none;
+  border-radius: 5px;
+  color: black;
+  transition: background 0.3s ease;
+  width: 60%;
+  margin-left: 15%;
+}
+
+.add-branch-button {
+  padding: 10px 20px;
+  font-size: 35px;
+  cursor: pointer;
+  background: linear-gradient(to right, lightyellow, gold);
+  border: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.branch-buttons button:hover,
+.add-branch-button:hover {
+  background: linear-gradient(to right, gold, lightyellow);
+}
+
+.add-branch-container {
+  display: flex;
+  margin-top: 5%;
+  margin-left: 15%;
+  width: 70%;
+}

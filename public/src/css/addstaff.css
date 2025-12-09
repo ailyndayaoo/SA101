@@ -1,0 +1,219 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding-left: 250px;
+  box-sizing: border-box;
+  position: fixed;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  height: 100vh;
+  margin-left: 250px;
+  text-align: left;
+  position: absolute;
+  top: -13px;
+  left: 10px;
+  padding: 10px;
+}
+
+.header-container h1 {
+  margin-top: 1%;
+  font-size: 2.5rem;
+  font-weight: bold;
+  position: fixed;
+}
+
+.new-staff-title {
+  margin-top: 4%;
+  font-size: 1rem;
+  color: #000000;
+  position: fixed;
+}
+
+.icon-add {
+  position: fixed;
+  margin-left: 1%;
+  font-size: 35px; /* Adjust size as needed */
+  padding: 5px; /* Adjust padding as needed */
+
+}
+
+.back-button {
+  position: fixed;
+  margin-top: 9%;
+  font-size: 1rem;
+}
+
+.file-input {
+  display: none;
+}
+
+.upload-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  border: 2px dashed #ccc;
+  position: fixed;
+  cursor: pointer;
+}
+
+.upload-text {
+  position: absolute;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.upload-label:hover .upload-text {
+  color: #000;
+}
+
+.upload-info {
+  color: #666;
+  margin-top: 70%;
+  margin-left: 15%;
+}
+
+.upload-info .p1 {
+  font-size: 12px;
+  margin-top: -5%;
+  margin-left: 5%;
+}
+
+.upload-info .p3 {
+  font-size: 12px;
+  margin-top: -5%;
+  margin-left: 10%;
+}
+
+.upload-info .p2 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: -30%;
+  margin-left: -20%;
+}
+
+.upload-info .p4 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: -30%;
+  margin-left: 20%;
+}
+
+.submit-add-button {
+  background: linear-gradient(90deg, #ffe66d, #ffba08);
+  color: #000000;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 35%;
+  margin-top: 1%;
+}
+
+.submit-add-button:hover {
+  background: linear-gradient(90deg, #ffdd57, #ff9f1c);
+}
+
+.background-box {
+  position: fixed;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 70%;
+  margin-left: -48%;
+  align-items: center;
+}
+
+.form-background {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 75%;
+  height: 66%;
+  margin: 0 auto;
+  position: fixed;
+  top: 26%;
+  left: 58%;
+  transform: translateX(-50%);
+  overflow: hidden; /* Hide any overflow by default */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.scrollable-section {
+  max-height: 400px; /* Adjust the height as needed */
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden; /* Disable horizontal scrolling */
+  width: 100%;
+}
+
+.input-group {
+  margin: 0; /* Remove margin to ensure consistent scrolling */
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  margin-left: 40%;
+}
+
+.input-item {
+  margin: 0; /* Remove margin to ensure consistent scrolling */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.input-label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+  font-size: 16px;
+}
+
+.input-field {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+input[type="txt"], input[type="email"], input[type="tel"], select.input-field {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 100%;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+select.input-field {
+  background-color: #ffffff;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
